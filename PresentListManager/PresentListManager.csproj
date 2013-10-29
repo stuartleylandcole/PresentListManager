@@ -226,10 +226,10 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Lists\Index.cshtml" />
+    <Content Include="Views\Lists\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Lists\Details.cshtml" />
+    <Content Include="Views\Lists\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

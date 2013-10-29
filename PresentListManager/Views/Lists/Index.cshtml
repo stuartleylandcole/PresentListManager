@@ -1,5 +1,13 @@
-﻿@{
+﻿@model IEnumerable<PresentListManager.Models.PresentList>
+
+@{
     ViewBag.Title = "Lists";
 }
 
 <h2>Your Lists</h2>
+<ul>
+    @foreach (var list in Model)
+    {
+        <li>@Html.ActionLink(@list.Description, "Details", new { id = list.Id})</li>
+    }
+</ul>
